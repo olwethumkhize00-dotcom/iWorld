@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>iWorld</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h2>iWorld</h2>
+  <input id="search" placeholder="Search iPhone">
+  <button onclick="toggleDark()">🌙</button>
+</header>
+
+<section class="hero">
+  <h1>iPhone 17 Pro</h1>
+  <p>Orange. Pro. Future.</p>
+</section>
+
+<main id="phones"></main>
+
+<div id="cart" class="sheet hidden">
+  <h2>Checkout</h2>
+  <div id="items"></div>
+  <p id="total"></p>
+  <button onclick="pay()">Pay Now</button>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
